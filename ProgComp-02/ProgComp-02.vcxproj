@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{32e43a4e-9ef6-4839-abc9-03ab13e460c9}</ProjectGuid>
-    <RootNamespace>ProgComp</RootNamespace>
+    <ProjectGuid>{e52bc1b1-17ae-4fc5-964f-8cf24099a025}</ProjectGuid>
+    <RootNamespace>ProgComp02</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ProgComp-01</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,9 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Primeiro.cpp" />
-    <ClCompile Include="Segundo.cpp" />
-    <ClCompile Include="Terceiro.cpp" />
+    <ClCompile Include="ArgcArgv.cpp" />
+    <ClCompile Include="Lab02-Ex01.cpp" />
+    <ClCompile Include="Lab02-Ex02.cpp" />
+    <ClCompile Include="Lab02-Ex03.cpp" />
+    <ClCompile Include="Lab02-Ex04.cpp" />
+    <ClCompile Include="Lab02-Ex05.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

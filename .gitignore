@@ -34,4 +34,5 @@
 # Others
 *.vs
 *.vcxproj.user
-ProgComp/x64*
+*/x64*
+*/Debug*
